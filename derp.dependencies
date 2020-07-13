@@ -2,7 +2,7 @@
   {
     "remote":"github",
     "branch":"ten",
-    "repository": "PixelExperience-Devices/kernel_realme_RMX1971",
+    "repository": "DerpFest-Devices/kernel_realme_RMX1971",
     "target_path": "kernel/realme/RMX1971"
   },
   {
@@ -10,11 +10,5 @@
     "branch":"ten",
     "repository": "vendor_realme_RMX1971",
     "target_path": "vendor/realme/RMX1971"
-  },
-  {
-    "repository": "packages_apps_PixelLiveWallpaper",
-    "target_path": "packages/apps/PixelLiveWallpaper",
-    "branch": "ten",
-    "remote": "pixel-gitlab"
   }
 ]

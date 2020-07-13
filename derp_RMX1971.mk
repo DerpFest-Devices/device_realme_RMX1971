@@ -10,23 +10,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
+# Inherit some common DerpFest stuff.
+$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-
-# Inherit from RMX1901 device.
+# Inherit from RMX1971 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Gapps Config
-TARGET_GAPPS_ARCH := arm64
+# Official-ify
+DERP_BUILDTYPE := Official
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1971
-PRODUCT_NAME := aosp_RMX1971
+PRODUCT_NAME := derp_RMX1971
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme 5 Pro
 PRODUCT_MANUFACTURER := Realme
