@@ -224,6 +224,10 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.2-service.clearkey
 
+# Doze
+PRODUCT_PACKAGES += \
+    RealmeParts
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     vendor.oppo.hardware.biometrics.fingerprint@2.1 \
@@ -232,6 +236,7 @@ PRODUCT_PACKAGES += \
 #Gpi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl
+
 #Gps
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
@@ -477,4 +482,3 @@ PRODUCT_BOOT_JARS += \
 
 # Inherit from proprietary version
 $(call inherit-product-if-exists, vendor/realme/RMX1971/RMX1971-vendor.mk)
-
