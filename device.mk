@@ -314,7 +314,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libstagefright_omx.vendor \
-    android.hardware.media.omx@1.0-service
+    android.hardware.media.omx@1.0-service \
+    libgui_vendor
 
 # Net
 PRODUCT_PACKAGES += \
