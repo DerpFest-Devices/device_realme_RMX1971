@@ -166,9 +166,7 @@ PRODUCT_PACKAGES += \
     init.class_main.sh \
     init.crda.sh \
     init.mdm.sh \
-    init.oppo.face.sh \
     init.oppo.fingerprints.sh \
-    init.oppo.wifi.sh \
     init.qcom.class_core.sh \
     init.qcom.coex.sh \
     init.qcom.crashdata.sh \
@@ -179,9 +177,7 @@ PRODUCT_PACKAGES += \
     init.qcom.sensors.sh \
     init.qcom.sh \
     init.qcom.usb.sh \
-    init.qti.can.sh \
     init.qti.ims.sh \
-    init.qti.manifest_sku.sh \
     init.qti.chg_policy.sh \
     init.qti.qseecomd.sh \
     fstab.qcom \
@@ -193,8 +189,6 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.qcom.usb.rc \
     init.target.rc \
-    init.wlan.qcom.rc \
-    init.wlan.target.rc \
     ueventd.rc
 
 # Display
