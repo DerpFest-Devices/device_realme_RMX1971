@@ -6,9 +6,9 @@
     "target_path": "kernel/realme/RMX1971"
   },
   {
-    "remote":"pixel-devices-bitbucket",
+    "remote":"github",
     "branch":"ten",
-    "repository": "vendor_realme_RMX1971",
+    "repository": "DerpFest-Devices/vendor_realme_RMX1971",
     "target_path": "vendor/realme/RMX1971"
   }
 ]
