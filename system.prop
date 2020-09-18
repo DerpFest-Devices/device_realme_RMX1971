@@ -1,7 +1,6 @@
 # Bluetooth
 ro.bluetooth.wipower=false
 ro.bluetooth.emb_wp_mode=false
-vendor.bluetooth.soc=cherokee
 persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac-aptxadaptive
 
 # Camera
