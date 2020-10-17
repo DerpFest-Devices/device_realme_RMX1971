@@ -193,6 +193,7 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-service \
     android.hardware.graphics.mapper@2.0-impl-qti-display \
     gralloc.sdm710 \
+    hwcomposer.sdm710 \
     libdisplayconfig \
     libdisplayconfig.vendor \
     libhwc2on1adapter \
@@ -324,6 +325,11 @@ PRODUCT_PACKAGES += \
     libOmxVidcCommon \
     libstagefrighthw
 
+# Perf
+PRODUCT_BOOT_JARS += \
+    QPerformance \
+    UxPerformance
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2-service-qti
@@ -401,8 +407,7 @@ PRODUCT_PACKAGES += \
     qcrilhook
 
 PRODUCT_BOOT_JARS += \
-    telephony-ext \
-    qcrilhook
+    telephony-ext
 
 # TextClassifier
 PRODUCT_PACKAGES += \
