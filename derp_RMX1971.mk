@@ -16,6 +16,9 @@ $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 # Inherit from RMX1971 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 
