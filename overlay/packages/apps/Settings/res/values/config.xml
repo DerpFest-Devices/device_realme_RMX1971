@@ -22,4 +22,7 @@
     -->
     <integer name="config_fingerprintSensorLocation">0</integer>
 
+	<!-- DerpFest Maintainer Name -->
+    <string name="maintainer_name">nao</string>
+
 </resources>
