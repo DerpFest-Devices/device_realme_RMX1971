@@ -13,3 +13,6 @@ $(call inherit-product, $(LOCAL_PATH)/RMX1971.mk)
 # Target configurations.
 PRODUCT_NAME := derp_RMX1971
 DERP_BUILDTYPE := Official
+
+# Override system and vendor fingerprint
+BUILD_FINGERPRINT := realme/RMX1971/RMX1971:11/RKQ1.201217.002/1626947099367:user/release-keys
