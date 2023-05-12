@@ -5,4 +5,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_RMX1971.mk
+    $(LOCAL_DIR)/derp_RMX1971.mk
+
+
+COMMON_LUNCH_CHOICES := \
+    derp_RMX1971-user \
+    derp_RMX1971-userdebug \
+    derp_RMX1971-eng
